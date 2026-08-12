@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo": "places-of-scenic-beauty",
+    "name": "名勝",
+    "category": {
+      "code": "401",
+      "name": "史跡名勝天然記念物"
+    },
+    "kinds": [
+      "名勝"
+    ]
+  },
+  "source": {
+    "name": "国指定文化財等データベース",
+    "publisher": "文化庁",
+    "url": "https://kunishitei.bunka.go.jp/",
+    "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
+    "accessed_date": "2026-08-12",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月12日に利用）\n上記を加工して作成"
+  },
+  "generator": {
+    "name": "heritage-crawler",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "records": 397,
+    "files": 49,
+    "with_coordinates": 382
+  },
+  "labels": {
+    "ledger_id": "台帳ID",
+    "managed_id": "管理対象ID",
+    "category_name": "分類",
+    "url": "詳細ページ",
+    "name": "名称",
+    "name_kana": "ふりがな",
+    "types": "種別",
+    "period": "時代",
+    "year_text": "年代",
+    "western_year": "西暦",
+    "area": "面積",
+    "notes": "その他参考となるべき事項",
+    "designation_kind": "指定・登録・選定の別",
+    "designation_number": "告示番号",
+    "special_class": "特別区分",
+    "designated_date": "指定年月日",
+    "special_designated_date": "特別指定年月日",
+    "added_date": "追加年月日",
+    "criteria": "指定基準",
+    "prefecture": "所在都道府県",
+    "address": "所在地（市区町村）",
+    "latitude": "緯度",
+    "longitude": "経度",
+    "owner": "所有者名",
+    "owner_type": "所有者種別",
+    "description": "解説文",
+    "detailed_description": "詳細解説",
+    "measures": "指定等後に行った措置",
+    "measures.date": "異動年月日",
+    "measures.note": "異動内容",
+    "measures.types": "異動種別",
+    "has_attachment": "添付ファイルの有無",
+    "has_measures": "指定等後に行った措置の有無",
+    "has_photo": "写真の有無"
+  },
+  "fields": {
+    "ledger_id": 397,
+    "managed_id": 397,
+    "category_name": 397,
+    "url": 397,
+    "name": 397,
+    "name_kana": 397,
+    "types": 397,
+    "period": 38,
+    "year_text": 1,
+    "western_year": 2,
+    "area": 74,
+    "notes": 1,
+    "designation_kind": 397,
+    "designation_number": 180,
+    "special_class": 151,
+    "designated_date": 397,
+    "special_designated_date": 1,
+    "added_date": 54,
+    "criteria": 389,
+    "prefecture": 394,
+    "address": 388,
+    "latitude": 382,
+    "longitude": 382,
+    "owner": 5,
+    "owner_type": 5,
+    "description": 86,
+    "detailed_description": 357,
+    "measures": 57,
+    "has_attachment": 397,
+    "has_measures": 397,
+    "has_photo": 397
+  },
+  "facets": {
+    "types": {
+      "名勝": 397,
+      "天然記念物": 51,
+      "史跡": 40
+    },
+    "period": {
+      "近代": 6,
+      "明治時代": 4,
+      "江戸": 4,
+      "明治～現代": 3,
+      "昭和前期": 2,
+      "近世": 2,
+      "古代": 1,
+      "大正": 1,
+      "大正時代": 1,
+      "大正～昭和": 1,
+      "室町～安土桃山": 1,
+      "幕末～昭和": 1,
+      "明治中期～昭和初期": 1,
+      "明治時代～大正時代": 1,
+      "明治時代～昭和初期": 1,
+      "明治末～大正": 1,
+      "明治～大正": 1,
+      "江戸時代": 1,
+      "江戸末〜明治末": 1,
+      "江戸～現代": 1,
+      "江戸～近代": 1,
+      "１６世紀": 1,
+      "１６世紀～１８世紀": 1
+    },
+    "prefecture": {
+      "京都府": 48,
+      "滋賀県": 22,
+      "島根県": 17,
+      "沖縄県": 14,
+      "福井県": 14,
+      "山口県": 13,
+      "愛媛県": 13,
+      "和歌山県": 11,
+      "奈良県": 11,
+      "岡山県": 11,
+      "新潟県": 11,
+      "東京都": 11,
+      "熊本県": 10,
+      "青森県": 10,
+      "静岡県": 10,
+      "兵庫県": 9,
+      "岩手県": 9,
+      "石川県": 9,
+      "三重県": 8,
+      "福岡県": 8,
+      "大分県": 7,
+      "山形県": 7,
+      "広島県": 7,
+      "群馬県": 7,
+      "大阪府": 6,
+      "岐阜県": 6,
+      "愛知県": 6,
+      "神奈川県": 6,
+      "長崎県": 6,
+      "鳥取県": 6,
+      "宮城県": 5,
+      "宮崎県": 5,
+      "秋田県": 5,
+      "長野県": 5,
+      "香川県": 5,
+      "鹿児島県": 5,
+      "千葉県": 4,
+      "山梨県": 4,
+      "徳島県": 4,
+      "福島県": 4,
+      "茨城県": 4,
+      "北海道": 3,
+      "高知県": 3,
+      "栃木県": 2,
+      "佐賀県": 1,
+      "埼玉県": 1,
+      "富山県": 1
+    },
+    "criteria": {
+      "一．公園、庭園": 222,
+      "五．岩石、洞穴": 59,
+      "八．砂丘、砂嘴(さし)、海浜、島嶼": 59,
+      "六．峡谷、爆布、漢流、深淵": 55,
+      "（九）風化及び侵蝕に関する現象": 35,
+      "十一．展望地点": 33,
+      "三．花樹、花草、紅葉、緑樹などの叢生する場所": 32,
+      "八．旧宅、園池その他特に由緒のある地域の類": 30,
+      "十．山岳、丘陵、高原、平原、河川": 24,
+      "（一）岩石、鉱物及び化石の産出状態": 19,
+      "（七）岩石の組織": 15,
+      "三．社寺の跡又は旧境内その他祭祀信仰に関する遺跡": 8,
+      "七．湖沼、湿原、浮島、湧泉": 7,
+      "（五）地震断層など地塊運動に関する現象": 7,
+      "二．橋梁、築堤": 6,
+      "二．都城跡、国郡庁跡、城跡、官公庁、戦跡その他政治に関する遺跡": 5,
+      "四．鳥獣、魚虫などの棲息する場所": 5,
+      "（六）洞穴": 5,
+      "九．火山、温泉": 4,
+      "（一）名木、巨樹、老樹、畸形木、栽培植物の原木、並木、社叢": 3,
+      "（三）地層の摺曲及び衝上": 3,
+      "一．貝塚、集落跡、古墳その他この類の遺跡": 2,
+      "七．墳墓及び碑": 2,
+      "四．学校、研究施設、文化施設その他教育・学術・文化に関する遺跡": 2,
+      "（十）硫気孔及び火山活動によるもの": 2,
+      "六．交通・通信施設、治山・治水施設、生産施設その他経済・生産活動に関する遺跡": 1,
+      "（三）代表的高山植物帯、特殊岩石地植物群落": 1,
+      "（九）着生草木の著しく発生する岩石又は樹木": 1,
+      "（二）代表的原始林、稀有の森林植物相": 1,
+      "（二）地層の整合及び不整合": 1,
+      "（五）海岸及び沙地植物群落の代表的なもの": 1,
+      "（四）生物の働きによる地質現象": 1
+    },
+    "owner_type": {
+      "国、市、個人": 1,
+      "市": 1,
+      "法人、個人": 1,
+      "町": 1,
+      "町、法人": 1
+    },
+    "designation_kind": {
+      "指定": 397
+    },
+    "special_class": {
+      "特別以外": 151
+    }
+  },
+  "files": [
+    {
+      "path": "data/01_hokkaido.jsonl",
+      "area_code": "01",
+      "area_name": "北海道",
+      "records": 3
+    },
+    {
+      "path": "data/02_aomori.jsonl",
+      "area_code": "02",
+      "area_name": "青森県",
+      "records": 10
+    },
+    {
+      "path": "data/03_iwate.jsonl",
+      "area_code": "03",
+      "area_name": "岩手県",
+      "records": 9
+    },
+    {
+      "path": "data/04_miyagi.jsonl",
+      "area_code": "04",
+      "area_name": "宮城県",
+      "records": 5
+    },
+    {
+      "path": "data/05_akita.jsonl",
+      "area_code": "05",
+      "area_name": "秋田県",
+      "records": 5
+    },
+    {
+      "path": "data/06_yamagata.jsonl",
+      "area_code": "06",
+      "area_name": "山形県",
+      "records": 7
+    },
+    {
+      "path": "data/07_fukushima.jsonl",
+      "area_code": "07",
+      "area_name": "福島県",
+      "records": 4
+    },
+    {
+      "path": "data/08_ibaraki.jsonl",
+      "area_code": "08",
+      "area_name": "茨城県",
+      "records": 4
+    },
+    {
+      "path": "data/09_tochigi.jsonl",
+      "area_code": "09",
+      "area_name": "栃木県",
+      "records": 2
+    },
+    {
+      "path": "data/10_gunma.jsonl",
+      "area_code": "10",
+      "area_name": "群馬県",
+      "records": 7
+    },
+    {
+      "path": "data/11_saitama.jsonl",
+      "area_code": "11",
+      "area_name": "埼玉県",
+      "records": 1
+    },
+    {
+      "path": "data/12_chiba.jsonl",
+      "area_code": "12",
+      "area_name": "千葉県",
+      "records": 4
+    },
+    {
+      "path": "data/13_tokyo.jsonl",
+      "area_code": "13",
+      "area_name": "東京都",
+      "records": 11
+    },
+    {
+      "path": "data/14_kanagawa.jsonl",
+      "area_code": "14",
+      "area_name": "神奈川県",
+      "records": 6
+    },
+    {
+      "path": "data/15_niigata.jsonl",
+      "area_code": "15",
+      "area_name": "新潟県",
+      "records": 11
+    },
+    {
+      "path": "data/16_toyama.jsonl",
+      "area_code": "16",
+      "area_name": "富山県",
+      "records": 1
+    },
+    {
+      "path": "data/17_ishikawa.jsonl",
+      "area_code": "17",
+      "area_name": "石川県",
+      "records": 9
+    },
+    {
+      "path": "data/18_fukui.jsonl",
+      "area_code": "18",
+      "area_name": "福井県",
+      "records": 14
+    },
+    {
+      "path": "data/19_yamanashi.jsonl",
+      "area_code": "19",
+      "area_name": "山梨県",
+      "records": 4
+    },
+    {
+      "path": "data/20_nagano.jsonl",
+      "area_code": "20",
+      "area_name": "長野県",
+      "records": 5
+    },
+    {
+      "path": "data/21_gifu.jsonl",
+      "area_code": "21",
+      "area_name": "岐阜県",
+      "records": 6
+    },
+    {
+      "path": "data/22_shizuoka.jsonl",
+      "area_code": "22",
+      "area_name": "静岡県",
+      "records": 10
+    },
+    {
+      "path": "data/23_aichi.jsonl",
+      "area_code": "23",
+      "area_name": "愛知県",
+      "records": 6
+    },
+    {
+      "path": "data/24_mie.jsonl",
+      "area_code": "24",
+      "area_name": "三重県",
+      "records": 8
+    },
+    {
+      "path": "data/25_shiga.jsonl",
+      "area_code": "25",
+      "area_name": "滋賀県",
+      "records": 22
+    },
+    {
+      "path": "data/26_kyoto.jsonl",
+      "area_code": "26",
+      "area_name": "京都府",
+      "records": 48
+    },
+    {
+      "path": "data/27_osaka.jsonl",
+      "area_code": "27",
+      "area_name": "大阪府",
+      "records": 6
+    },
+    {
+      "path": "data/28_hyogo.jsonl",
+      "area_code": "28",
+      "area_name": "兵庫県",
+      "records": 9
+    },
+    {
+      "path": "data/29_nara.jsonl",
+      "area_code": "29",
+      "area_name": "奈良県",
+      "records": 11
+    },
+    {
+      "path": "data/30_wakayama.jsonl",
+      "area_code": "30",
+      "area_name": "和歌山県",
+      "records": 11
+    },
+    {
+      "path": "data/31_tottori.jsonl",
+      "area_code": "31",
+      "area_name": "鳥取県",
+      "records": 6
+    },
+    {
+      "path": "data/32_shimane.jsonl",
+      "area_code": "32",
+      "area_name": "島根県",
+      "records": 17
+    },
+    {
+      "path": "data/33_okayama.jsonl",
+      "area_code": "33",
+      "area_name": "岡山県",
+      "records": 11
+    },
+    {
+      "path": "data/34_hiroshima.jsonl",
+      "area_code": "34",
+      "area_name": "広島県",
+      "records": 7
+    },
+    {
+      "path": "data/35_yamaguchi.jsonl",
+      "area_code": "35",
+      "area_name": "山口県",
+      "records": 13
+    },
+    {
+      "path": "data/36_tokushima.jsonl",
+      "area_code": "36",
+      "area_name": "徳島県",
+      "records": 4
+    },
+    {
+      "path": "data/37_kagawa.jsonl",
+      "area_code": "37",
+      "area_name": "香川県",
+      "records": 5
+    },
+    {
+      "path": "data/38_ehime.jsonl",
+      "area_code": "38",
+      "area_name": "愛媛県",
+      "records": 13
+    },
+    {
+      "path": "data/39_kochi.jsonl",
+      "area_code": "39",
+      "area_name": "高知県",
+      "records": 3
+    },
+    {
+      "path": "data/40_fukuoka.jsonl",
+      "area_code": "40",
+      "area_name": "福岡県",
+      "records": 8
+    },
+    {
+      "path": "data/41_saga.jsonl",
+      "area_code": "41",
+      "area_name": "佐賀県",
+      "records": 1
+    },
+    {
+      "path": "data/42_nagasaki.jsonl",
+      "area_code": "42",
+      "area_name": "長崎県",
+      "records": 6
+    },
+    {
+      "path": "data/43_kumamoto.jsonl",
+      "area_code": "43",
+      "area_name": "熊本県",
+      "records": 10
+    },
+    {
+      "path": "data/44_oita.jsonl",
+      "area_code": "44",
+      "area_name": "大分県",
+      "records": 7
+    },
+    {
+      "path": "data/45_miyazaki.jsonl",
+      "area_code": "45",
+      "area_name": "宮崎県",
+      "records": 5
+    },
+    {
+      "path": "data/46_kagoshima.jsonl",
+      "area_code": "46",
+      "area_name": "鹿児島県",
+      "records": 5
+    },
+    {
+      "path": "data/47_okinawa.jsonl",
+      "area_code": "47",
+      "area_name": "沖縄県",
+      "records": 14
+    },
+    {
+      "path": "data/90_multiple-prefectures.jsonl",
+      "area_code": "90",
+      "area_name": "２県以上",
+      "records": 1
+    },
+    {
+      "path": "data/99_unspecified.jsonl",
+      "area_code": "99",
+      "area_name": "地域を定めない",
+      "records": 2
+    }
+  ]
+}
